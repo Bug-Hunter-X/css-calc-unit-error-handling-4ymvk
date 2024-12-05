@@ -1,0 +1,14 @@
+/* Incorrect usage: Missing 'px' unit */
+.incorrect {
+  width: calc(100% - 10);
+}
+
+/* Correct usage: Adding 'px' unit */
+.correct {
+  width: calc(100% - 10px);
+}
+
+/* Correct usage with different unit */
+.correct-em {
+  width: calc(100% - 2em);
+} 
