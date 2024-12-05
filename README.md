@@ -1,0 +1,1 @@
+This example demonstrates a common error when using the CSS `calc()` function. The error arises from omitting units in the calculation, leading to unpredictable results. The solution shows how to correct this error by ensuring that all values within the `calc()` function have the appropriate units.
